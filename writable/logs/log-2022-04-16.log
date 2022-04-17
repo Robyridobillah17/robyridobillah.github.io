@@ -1,0 +1,52 @@
+ERROR - 2022-04-16 21:09:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 21:09:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(17): App\Models\PortoModel->getEdu()
+#4 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-04-16 21:09:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 21:09:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(17): App\Models\PortoModel->getEdu()
+#4 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-04-16 21:10:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 21:10:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(17): App\Models\PortoModel->getEdu()
+#4 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-04-16 21:12:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 21:12:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(17): App\Models\PortoModel->getEdu()
+#4 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI4\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
